@@ -1,12 +1,10 @@
 name: Yad2 Scraper
 
 on:
-  schedule:
-    - cron: '*/15 5-17 * * *'
-  workflow_dispatch:
-    branches:
-      - '**'
 
+  schedule:
+    - cron: '*/20 * * * *'   # Every 20 minutes
+  workflow_dispatch:        # Allows manual run
 jobs:
   scraper:
     runs-on: ubuntu-latest
