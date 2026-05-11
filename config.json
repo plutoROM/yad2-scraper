@@ -1,10 +1,9 @@
 {
-  "telegramApiToken": null,
-  "chatId": null,
   "projects": [
     {
-      "topic": "",
-      "url": ""
+      "topic": "Parking Old North",
+      "url": "https://www.yad2.co.il/realestate/rent/tel-aviv-area?area=1&city=5000&neighborhood=1483&property=30&srsltid=AfmBOooJ5D9M0wQreiz3uHKKlbjEipuB4zL3HXVdUJ8GxDiW22zg74Ko",
+      "disabled": false
     }
   ]
 }
